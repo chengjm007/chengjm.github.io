@@ -44,11 +44,6 @@
       </tags>
   </entry>
   <entry>
-    <title>第二篇</title>
-    <url>/2023/11/15/%E6%B5%8B%E8%AF%95%E7%AC%AC%E4%BA%8C%E7%AF%87/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>my second blog</title>
     <url>/2023/11/17/my-second-blog/</url>
     <content><![CDATA[]]></content>
@@ -76,5 +71,10 @@
       <tags>
         <tag>闪念笔记</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>第二篇</title>
+    <url>/2023/11/15/%E6%B5%8B%E8%AF%95%E7%AC%AC%E4%BA%8C%E7%AF%87/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
