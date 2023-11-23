@@ -365,6 +365,45 @@ td {
   top: -6px;
   transform: rotate(-45deg);
 }
+.highlight:hover .copy-btn,
+.code-container:hover .copy-btn {
+  opacity: 1;
+}
+.code-container {
+  position: relative;
+}
+.copy-btn {
+  color: #333;
+  cursor: pointer;
+  line-height: 1.6;
+  opacity: 0;
+  padding: 2px 6px;
+  position: absolute;
+  transition: opacity 0.2s ease-in-out;
+  color: var(--highlight-foreground);
+  font-size: 14px;
+  right: 0;
+  top: 2px;
+}
+figure.highlight {
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(0,0,0,0.4);
+  padding-top: 30px;
+}
+figure.highlight .table-container {
+  border-radius: 0 0 5px 5px;
+}
+figure.highlight::before {
+  background: #fc625d;
+  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+  left: 12px;
+  margin-top: -20px;
+  position: absolute;
+  border-radius: 50%;
+  content: ' ';
+  height: 12px;
+  width: 12px;
+}
 .expand-btn {
   bottom: 0;
   color: var(--highlight-foreground);
@@ -1432,20 +1471,6 @@ pre code {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.post-toc .nav .nav-child {
-  --height: 0;
-  height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transition-property: height, opacity, visibility;
-  transition: 0.2s ease-in-out;
-  visibility: hidden;
-}
-.post-toc .nav .active > .nav-child {
-  height: var(--height, auto);
-  opacity: 1;
-  visibility: unset;
-}
 .post-toc .nav .active > a {
   border-bottom-color: #fc6423;
   color: #fc6423;
@@ -2035,6 +2060,24 @@ pre code {
 .post-block:last-of-type .post-eof {
   display: none;
 }
+.post-copyright ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0.5em 1em;
+  position: relative;
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  margin: 1em 0 0;
+}
+.post-copyright ul::after {
+  content: '\f25e';
+  font-family: 'Font Awesome 6 Brands';
+  font-size: 200px;
+  opacity: 0.1;
+  position: absolute;
+  right: -50px;
+  top: -150px;
+}
 .post-tags {
   margin-top: 40px;
   text-align: center;
@@ -2091,6 +2134,10 @@ pre code {
 }
 .post-reward div span {
   display: block;
+}
+.post-reward div:hover span {
+  animation: next-roll 0.1s infinite linear;
+  pointer-events: none;
 }
 .post-reward img {
   display: inline-block;
