@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>程军明的博客</title>
+  
+  <subtitle>求知海洋里的流浪汉</subtitle>
+  <link href="https://chengjm007.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://chengjm007.github.io/"/>
+  <updated>2023-11-18T13:47:48.063Z</updated>
+  <id>https://chengjm007.github.io/</id>
+  
+  <author>
+    <name>Cheng J.M.</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在新员工入职培训开班仪式上的讲话</title>
+    <link href="https://chengjm007.github.io/2023/11/18/new-worker/"/>
+    <id>https://chengjm007.github.io/2023/11/18/new-worker/</id>
+    <published>2023-11-18T01:11:35.000Z</published>
+    <updated>2023-11-18T13:47:48.063Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​                                                     向上走的每条路都拒绝平庸&lt;/p&gt;
+&lt;p&gt;​                                                        </summary>
+        
+      
+    
+    
+    
+    
+    <category term="闪念笔记" scheme="https://chengjm007.github.io/tags/%E9%97%AA%E5%BF%B5%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇 Git blog</title>
+    <link href="https://chengjm007.github.io/2023/11/17/my-git-blog/"/>
+    <id>https://chengjm007.github.io/2023/11/17/my-git-blog/</id>
+    <published>2023-11-17T15:07:42.000Z</published>
+    <updated>2023-11-17T15:10:21.284Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;《卡片笔记写作法》介绍了德国彼得菲尔德大学社会学教授尼克拉斯.卢曼高效产出的写作方法，这个方法的核心是卡片盒，开始以为就是很简单的一种方法，所以第一次读完这本书并没有给我留下很特别的印象，以为就是写个笔记卡片，然后以一定的规则编好号，在写作成稿时再按编号顺序串起来就行了。&lt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="永久笔记" scheme="https://chengjm007.github.io/tags/%E6%B0%B8%E4%B9%85%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>my second blog</title>
+    <link href="https://chengjm007.github.io/2023/11/17/my-second-blog/"/>
+    <id>https://chengjm007.github.io/2023/11/17/my-second-blog/</id>
+    <published>2023-11-17T14:42:48.000Z</published>
+    <updated>2023-11-17T14:42:48.346Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第二篇</title>
+    <link href="https://chengjm007.github.io/2023/11/15/ce-shi-di-er-pian/"/>
+    <id>https://chengjm007.github.io/2023/11/15/ce-shi-di-er-pian/</id>
+    <published>2023-11-15T12:39:34.000Z</published>
+    <updated>2023-11-15T12:39:34.612Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://chengjm007.github.io/2023/11/14/hello-world/"/>
+    <id>https://chengjm007.github.io/2023/11/14/hello-world/</id>
+    <published>2023-11-14T14:07:57.714Z</published>
+    <updated>2023-11-14T14:07:57.714Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

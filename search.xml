@@ -19,6 +19,11 @@
 ]]></content>
   </entry>
   <entry>
+    <title>my second blog</title>
+    <url>/2023/11/17/my-second-blog/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>我的第一篇 Git blog</title>
     <url>/2023/11/17/my-git-blog/</url>
     <content><![CDATA[<p>《卡片笔记写作法》介绍了德国彼得菲尔德大学社会学教授尼克拉斯.卢曼高效产出的写作方法，这个方法的核心是卡片盒，开始以为就是很简单的一种方法，所以第一次读完这本书并没有给我留下很特别的印象，以为就是写个笔记卡片，然后以一定的规则编好号，在写作成稿时再按编号顺序串起来就行了。</p>
@@ -42,11 +47,6 @@
       <tags>
         <tag>永久笔记</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>my second blog</title>
-    <url>/2023/11/17/my-second-blog/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>在新员工入职培训开班仪式上的讲话</title>
@@ -74,7 +74,7 @@
   </entry>
   <entry>
     <title>第二篇</title>
-    <url>/2023/11/15/%E6%B5%8B%E8%AF%95%E7%AC%AC%E4%BA%8C%E7%AF%87/</url>
+    <url>/2023/11/15/ce-shi-di-er-pian/</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
