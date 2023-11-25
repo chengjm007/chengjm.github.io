@@ -40,7 +40,7 @@
     <link href="https://chengjm007.github.io/2023/11/17/my-git-blog/"/>
     <id>https://chengjm007.github.io/2023/11/17/my-git-blog/</id>
     <published>2023-11-17T15:07:42.000Z</published>
-    <updated>2023-11-24T14:21:20.090Z</updated>
+    <updated>2023-11-24T14:43:19.882Z</updated>
     
     
     <summary type="html">我的第一篇 Git Blog。一篇介绍读书笔记的笔记，让你重新认识写作的流程。</summary>
@@ -48,6 +48,10 @@
     
     
     <category term="兴趣领域" scheme="https://chengjm007.github.io/categories/%E5%85%B4%E8%B6%A3%E9%A2%86%E5%9F%9F/"/>
+    
+    <category term="Obsidian" scheme="https://chengjm007.github.io/categories/%E5%85%B4%E8%B6%A3%E9%A2%86%E5%9F%9F/Obsidian/"/>
+    
+    <category term="笔记方法" scheme="https://chengjm007.github.io/categories/%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95/"/>
     
     
     <category term="永久笔记" scheme="https://chengjm007.github.io/tags/%E6%B0%B8%E4%B9%85%E7%AC%94%E8%AE%B0/"/>
@@ -59,7 +63,7 @@
     <link href="https://chengjm007.github.io/2023/11/14/hello-world/"/>
     <id>https://chengjm007.github.io/2023/11/14/hello-world/</id>
     <published>2023-11-14T14:07:57.714Z</published>
-    <updated>2023-11-24T14:18:46.558Z</updated>
+    <updated>2023-11-24T14:31:36.453Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
