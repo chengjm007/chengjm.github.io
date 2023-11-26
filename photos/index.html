@@ -252,7 +252,7 @@
        padding: initial !important;
        background:url('https://s2.ax1x.com/2019/09/07/nlL4pR.jpg');
     }
-
+    
     .main-inner{
         width: 100%;
     }
@@ -284,12 +284,12 @@
     .footer-inner {
          padding-left: 0px;
     }
-
+    
     img:hover {
         //opacity:0.8; /*透明度*/
         //filter:alpha(opacity=100); /* For IE8 and earlier */
     }
-
+    
     .imgbox{
         margin-top: 20px;
         padding: 1px 10px;
@@ -328,7 +328,7 @@
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
     }
-
+    
     img.imgitem{
         padding: unset;
         padding: unset;
@@ -338,7 +338,7 @@
         height: auto;
         width: 100%;
     }
-
+    
     div#posts.posts-expand {
         border: unset;
         padding: unset;
@@ -357,16 +357,16 @@
         box-sizing: border-box;
         text-align: center;
     }
-
+    
     .box span strong{
         background: rgba(0,0,0,0.4);
         padding: 20px;
     }
-
+    
     .posts-expand .post-title {
         display: none;
     }
-
+    
     .title{
         margin: 10px auto;
         display: inline-block;
@@ -388,7 +388,7 @@
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
     }
-
+    
     @media (max-width: 767px){
         .box li {
             width: 98%;
@@ -396,7 +396,7 @@
         .title {
             height: 200px;
         }
-
+        
         .box span {
             min-height: 80px;
             border-right: unset;
@@ -405,16 +405,16 @@
         .box p{
             border-right: unset;
             font-size: 12px;
-
+          
         }
         .posts-expand {
             margin: unset;
         }
-
+    
     }
-
+    
     @media (min-width: 1600px){
-
+    
         .container .main-inner{
             width: 100%;
         }
@@ -483,7 +483,7 @@
                 'url': 'https://s2.ax1x.com/2019/09/07/nlR4q1.md.jpg'
             }
         ],
-
+        
         [
             {
                 'title': '世界之巅',
@@ -523,15 +523,15 @@
             }
         ]
     ]
-
+    
     var content = json2Array(json);
-
+        
     var wid = 250;
     if ((window.innerWidth) > 1200) {
         wid = (window.innerWidth*3)/18;
     }
     var box = document.getElementById('box');
-
+    
     var i=0;
     for (var i = 0; i < content.length; i++) {
         var conBox = document.createElement("div");
@@ -542,7 +542,7 @@
         var url = content[i][0].url;
         item.innerHTML = "<button class = 'title' style = 'background: url(" + url + ");'><span style = 'display: inline;'><strong style = 'color:#f0f3f6;' >" + title + "</strong></span></button>";
         conBox.appendChild(item);
-
+    
         for (var j = 1; j < content[i].length ; j++) {
             var _title = content[i][j].title;
             var _url = content[i][j].url;
@@ -551,7 +551,7 @@
             conBox.appendChild(item);
         }
     }
-
+    
     //json转二维数组
     function json2Array(arr) {
         for (var i=0; i<arr.length; i++) {
@@ -693,7 +693,7 @@ darkmode.showWidget();
 </script>
 <link rel="stylesheet" href="https://unpkg.com/gitalk@1.8.0/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":150785741,"repo":"chengjm007.github.io","client_id":"41144b0e28a23b5b768d","client_secret":"b4a6af9deeb8cc174d3e9f54b62f0e82d17dedd4","admin_user":"chengjm007","distraction_free_mode":false,"proxy":"https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token","language":"zh-CN","js":{"url":"https://unpkg.com/gitalk@1.8.0/dist/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"4360a9ea3ed043f672f556b22c311a4c"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":150785741,"repo":"https://chengjm007.github.io","client_id":"41144b0e28a23b5b768d","client_secret":"b4a6af9deeb8cc174d3e9f54b62f0e82d17dedd4","admin_user":"chengjm007","distraction_free_mode":false,"proxy":"https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token","language":"zh-CN","js":{"url":"https://unpkg.com/gitalk@1.8.0/dist/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"4360a9ea3ed043f672f556b22c311a4c"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
 
 </body>
